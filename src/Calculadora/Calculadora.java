@@ -15,7 +15,7 @@ public class Calculadora
     {
         double r = x;
         double t = 0;
-        while (t==r)
+        while (t!=r)
         {
             t = r;
             r = 0.5 * ( (x/r) + r);
